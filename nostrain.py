@@ -30,4 +30,6 @@ while 1:
     if len(tempactions) == 0:
         tempactions = list(actions)
     Mbox('Take a Break!', message)
+    time.sleep(20)
+    Mbox('Back to work!', 'Following the 20-20-20 rule, you may now get back to work :-)')
     time.sleep(sleepTime)
